@@ -1,0 +1,45 @@
+# ════════════════════════════════════════════════
+# 用户数据 / 密钥 / 缓存（绝对不要提交！）
+# ════════════════════════════════════════════════
+data/
+*.log
+*.bak
+
+# 老版本浮窗子进程的 IPC 文件
+popup_signal.json
+popup_trigger.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+build/
+dist/
+*.so
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 测试 / 覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# 打包产物
+*.zip
+*.exe
+*.spec

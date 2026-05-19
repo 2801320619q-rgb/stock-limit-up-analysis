@@ -1,0 +1,18 @@
+# 程序化分析工具 依赖
+requests>=2.28
+pandas>=1.5
+matplotlib>=3.5
+openpyxl>=3.0
+
+# 同花顺双向联动需要（v9.9.0+，仅 Windows）
+# 读方向（同花顺 → 浮窗）：
+#   - pymem：  内存偏移法（v9.8 主方案，对版本敏感但实测稳定）
+#   - pywin32：窗口标题法（最稳） + 剪贴板兜底
+# 写方向（主程序点击 → 同花顺切股）v9.9.4 起双后端：
+#   - pyautogui + pygetwindow：主后端，走同花顺 Ctrl+G 个股切换快捷键
+#                               （受输入法 / 焦点策略干扰小）
+#   - pywin32（SendInput）：    fallback，pyautogui 链路失败时自动兜底
+pymem>=1.10; sys_platform == "win32"
+pywin32>=305; sys_platform == "win32"
+pyautogui>=0.9.54; sys_platform == "win32"
+pygetwindow>=0.0.9; sys_platform == "win32"
