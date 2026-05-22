@@ -47,7 +47,18 @@
 
 | 主界面 | 浮窗 |
 |---|---|
-| ![main](docs/screenshots/main.png) | ![popup](docs/screenshots/popup.png) |
+主界面可以多为分析
+<img width="1202" height="842" alt="image" src="https://github.com/user-attachments/assets/91fccd2c-ef14-4cdf-b102-7186a2a0bf65" />
+<img width="1210" height="845" alt="image" src="https://github.com/user-attachments/assets/1a8a572c-b1d1-4be4-84fd-67c2dd976250" />
+<img width="1207" height="842" alt="image" src="https://github.com/user-attachments/assets/03c80be3-e2bc-4751-86ad-42a38e6f7660" />
+
+
+
+自动跟随同花顺页面变动 点击蓝字自动跳转页面
+<img width="2498" height="1374" alt="image" src="https://github.com/user-attachments/assets/db6f5ddd-f277-4ba7-8168-08a3eb6d4d6c" />
+<img width="2530" height="1357" alt="image" src="https://github.com/user-attachments/assets/53acd950-50c4-4abd-86b6-16ac7f8d2862" />
+
+
 
 ---
 
