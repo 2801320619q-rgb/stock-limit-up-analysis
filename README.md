@@ -299,7 +299,7 @@ SOFTWARE.
 ## 💬 联系
 
 - 提 Issue:[GitHub Issues](https://github.com/你的用户名/你的仓库名/issues)
-- 邮箱:`2801320619q@gmail.com
+- 邮箱:`2538163372@qq.com
 `(可选)
 
 ---
